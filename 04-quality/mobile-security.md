@@ -27,5 +27,9 @@ checks run before each release.
 
 ## Dependencies
 
-- [ ] Dependency vulnerability scan run; known-vulnerable packages patched.
+- [ ] Dependency vulnerability scan run; known-vulnerable packages patched. [CASE-004]
 - [ ] Third-party SDKs reviewed for what data they collect.
+
+---
+
+**Evidence:** [CASE-004](https://github.com/jesusarielgb-works/engineering-casebook/blob/v1.0.0/records/cases/CASE-004-equifax-2017.md) — one unpatched component exposed 145.5 million records.

@@ -8,7 +8,7 @@ story is Done.
 - Every interactive element has an accessible label (screen-reader text).
 - Minimum touch target: **44×44 pt** (iOS) / **48×48 dp** (Android).
 - Text scales with the OS font-size setting — never hardcode absolute sizes for body text.
-- Color contrast meets **WCAG AA**: 4.5:1 for body text, 3:1 for large text and icons.
+- Color contrast meets **WCAG AA**: 4.5:1 for body text, 3:1 for large text and icons. [BIB-003]
 - Do not convey meaning by color alone — pair with text, icon, or shape.
 - Screens are fully navigable and readable by the platform screen reader (VoiceOver / TalkBack).
 - Respect "reduce motion" — provide non-animated alternatives.
@@ -21,3 +21,7 @@ story is Done.
 - [ ] Contrast checked on light and dark themes.
 - [ ] All actionable targets meet the minimum size.
 - [ ] "Reduce motion" honored.
+
+---
+
+**Evidence:** [BIB-003](https://github.com/jesusarielgb-works/engineering-casebook/blob/v1.0.0/records/bib/BIB-003-wcag-2-2.md) — WCAG 2.2, Success Criterion 1.4.3.

@@ -17,7 +17,7 @@
 ## Store rollout
 
 - Ship via **staged rollout**: e.g. `5% → 20% → 50% → 100%`.
-- **Halt** the rollout on a crash/ANR spike or a critical bug report.
+- **Halt** the rollout on a crash/ANR spike or a critical bug report. [CASE-002]
 - Keep store metadata (screenshots, changelog, privacy labels) versioned with the release.
 
 ## Forced update
@@ -31,3 +31,7 @@
 - The previous build stays available.
 - Define the rollback trigger (crash-free below threshold, payment breakage, etc.) and who
   makes the call.
+
+---
+
+**Evidence:** [CASE-002](https://github.com/jesusarielgb-works/engineering-casebook/blob/v1.0.0/records/cases/CASE-002-crowdstrike-channel-file-291-2024.md) — an update shipped to every machine at once.
