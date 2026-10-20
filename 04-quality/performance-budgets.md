@@ -6,7 +6,7 @@ Set budgets, measure them, and treat a regression as a bug that blocks release.
 
 | Metric | Budget |
 |--------|--------|
-| Cold start to first frame | ≤ 2 s |
+| Cold start to first frame | ≤ 2 s — a project budget, stricter than the 5 s Android vitals flags as excessive [BIB-004] |
 | Frame rendering | 60 fps, no jank on scroll |
 | App install size | Tracked; every increase justified |
 | Memory on core flows | No leaks; stable under navigation churn |
@@ -23,3 +23,7 @@ Set budgets, measure them, and treat a regression as a bug that blocks release.
 
 - Capture startup time and app size in the pre-release job.
 - Compare against the previous release; flag regressions in the release checklist.
+
+---
+
+**Evidence:** [BIB-004](https://github.com/jesusarielgb-works/engineering-casebook/blob/v1.0.0/records/bib/BIB-004-android-vitals-startup.md) — Android vitals startup thresholds.

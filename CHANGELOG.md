@@ -1,6 +1,16 @@
 # Changelog
 Format: [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) | [SemVer](https://semver.org/)
 ## [Unreleased]
+## [1.1.0] - YYYY-MM-DD
+### Added
+- Evidence from the engineering casebook on five rules: contrast [BIB-003], cold-start
+  budget [BIB-004], feature flags [CASE-001], staged rollout [CASE-002], dependency
+  scanning [CASE-004]
+- `docs-check` workflow: links, citations and territory checked on every pull request
+- `CITATION.cff`
+### Changed
+- The cold-start budget now says it is a project budget, stricter than the platform's threshold
+- Feature flags: a retired flag is never reused for new behavior
 ## [1.0.0] - 2026-08-28
 ### Added
 - Manual-style governance scaffold for mobile apps: numbered sections, each with a README and copy-and-fill templates

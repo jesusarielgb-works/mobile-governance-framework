@@ -7,7 +7,7 @@
 > (Flutter, React Native, native iOS, native Android). A lighter companion to the
 > microservices framework: the same manual-with-templates approach, fewer sections.
 
-**Author:** [Jesus Ariel Gonzalez Bonilla](https://github.com/jesusarielgb-works)
+**Author:** [Jesús Ariel González Bonilla](https://github.com/jesusarielgb-works)
 
 This repository is a **documentation scaffold** for any mobile project. It contains no
 project-specific information. Its purpose is to teach how to govern and document a mobile
@@ -74,9 +74,15 @@ Companions:
 
 ---
 
+## Evidence
+
+Rules cite verified records of the
+[engineering casebook](https://github.com/jesusarielgb-works/engineering-casebook) as
+`[CASE-NNN]` or `[BIB-NNN]`; CI fails when a citation does not resolve.
+
 ## How to Cite
 
-> Gonzalez Bonilla, J. A. (2026). *Mobile Governance Framework* (v1.0.0). jesusarielgb-works. https://github.com/jesusarielgb-works/mobile-governance-framework
+> González Bonilla, J. A. (2026). *Mobile Governance Framework* (v1.1.0). jesusarielgb-works. https://github.com/jesusarielgb-works/mobile-governance-framework
 
 ## Contributing
 
@@ -84,4 +90,4 @@ See [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## License
 
-MIT — Jesus Ariel Gonzalez Bonilla. See [LICENSE](LICENSE).
+MIT — Jesús Ariel González Bonilla. See [LICENSE](LICENSE).
