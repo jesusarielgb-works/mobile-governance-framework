@@ -1,7 +1,7 @@
 # Changelog
 Format: [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) | [SemVer](https://semver.org/)
 ## [Unreleased]
-## [1.1.0] - YYYY-MM-DD
+## [1.1.0] - 2026-10-20
 ### Added
 - Evidence from the engineering casebook on five rules: contrast [BIB-003], cold-start
   budget [BIB-004], feature flags [CASE-001], staged rollout [CASE-002], dependency
